@@ -4,8 +4,6 @@ import numpy as np
 
 chat_id = 1025787461 # Ваш chat ID, не меняйте название переменной
 
-from scipy import stats
-import numpy as np
 
 def solution(x_success: int, x_cnt: int, y_success: int, y_cnt: int) -> bool:
     p1 = x_success / x_cnt
